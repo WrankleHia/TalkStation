@@ -1,0 +1,16 @@
+{
+  "name": "talkstation-electron",
+  "version": "1.0.0",
+  "description": "TalkStation 基于 Electron 的在线聊天系统",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "server": "node server.js",
+    "check": "node --check server.js && node --check app.js && node --check main.js",
+    "test": "node tests/server.test.js"
+  },
+  "devDependencies": {
+    "electron": "^37.2.0"
+  }
+}
